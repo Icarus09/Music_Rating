@@ -1,5 +1,5 @@
 # Song_Rating
-Uma API que o usuario logado poderá avaliar uma ou várias músicas com uma nota e um comentário. As músicas avaliadas pertencem a um Album que tem um Artista Projeto da disciplina de Programação para internet II-IFPI.
+Uma API que o usuario logado poderá avaliar uma ou várias músicas com uma nota e um comentário. As músicas avaliadas pertencem a os Albuns, e esses são gravados por Artista/Banda.
 
 ### Requisitos
 * Python 3.8.2;
