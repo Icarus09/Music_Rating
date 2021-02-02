@@ -18,20 +18,30 @@ Uma API que engloba artistas, albuns e musicas, e os usuários cadastrados podem
 
 | url                         | Funcionalidade                                                       |
 |-----------------------------|----------------------------------------------------------------------|
-| servidor/artists            | Listagem e cadastro de Artistas                                      |
-| servidor/artist/1           | Informações de um artista                                            |
-| servidor/albums             | Listagem e cadastro de albuns.                                       |
-| servidor/album/1            | Informações de um album especifico                                   |
-| servidor/songs              | Listagem e cadastro de musicas                                       |
-| servidor/song/1             | Informações de uma musica especifica                                 |
-| servidor/profile-list       | Listagem e cadastro de perfis                                        |
-| servidor/profile-list/1     | Informações de um perfil específico                                  |
-| servidor/ratings            | Listagem e cadastro de avaliação das musicas.                        |
-| servidor/ratings/1          | Informações de uma avaliação especifica de uma musica.               |
-| servidor/api/token/         | Login com token JWT (JSON Web Token)                                 |
-| servidor/api/token/refresh/ | Atualização do token JWT                                             |
+| server/artists            | Listagem e cadastro de Artistas                                      |
+| server/artist/1           | Informações de um artista                                            |
+| server/albums             | Listagem e cadastro de albuns.                                       |
+| server/album/1            | Informações de um album especifico                                   |
+| server/songs              | Listagem e cadastro de musicas                                       |
+| server/song/1             | Informações de uma musica especifica                                 |
+| server/profile-list       | Listagem e cadastro de perfis                                        |
+| server/profile-list/1     | Informações de um perfil específico                                  |
+| server/ratings            | Listagem e cadastro de avaliação das musicas.                        |
+| server/ratings/1          | Informações de uma avaliação especifica de uma musica.               |
+| server/api/token/         | Login com token JWT (JSON Web Token)                                 |
+| server/api/token/refresh/ | Atualização do token JWT                                             |
+| server/swagger/ 	        | Documentação da API                                                  |
 
 ### Permissões:
 Somente o superusuário tem permissão para cadastrar artistas, albums e musicas. Um usuário Normal cadastrado pode fazer avaliações nas músicas que ele deseja. Quem não for usuário pode apenas visualizar. 
 
+### Paginação:
+* songs?name=<field>
+* user?search=<field>
+* user?ordering=<field>
+  
+### Throttling:
+*  Quem não é usuário da api só tem permissão de acesso aos endpoints no maximo 2 vezes por hora. 
+*  Quem é usuário da api(usuario normal e Superusuário) só tem permissão de acesso aos endpoints no maximo 10 vezes por hora.
+  
 ### [Vídeo-Youtube] https://www.youtube.com/watch?v=nLctkyZ9QUE
