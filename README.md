@@ -1,8 +1,8 @@
-# music_rating
-Uma API que engloba artistas, albuns e musicas, e os usuários cadastrados podem classificar musicas dando uma nota e comentando. Projeto da disciplina de Programação para internet II.
+# Song_Rating
+Uma API que o usuario logado poderá avaliar uma ou várias músicas com uma nota e um comentário. As músicas avaliadas pertencem a um Album que tem um Artista Projeto da disciplina de Programação para internet II-IFPI.
 
 ### Requisitos
-* [Python 3.8.2](https://www.python.org);
+* Python 3.8.2;
 * Django 3.1.4;
 * Django Rest Framework 3.12.2;
 * Django Filter 2.4.0;
