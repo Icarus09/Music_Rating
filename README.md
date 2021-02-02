@@ -33,3 +33,5 @@ Uma API que engloba artistas, albuns e musicas, e os usuários cadastrados podem
 
 ### Permissões:
 Somente o superusuário tem permissão para cadastrar artistas, albums e musicas. Um usuário Normal cadastrado pode fazer avaliações nas músicas que ele deseja. Quem não for usuário pode apenas visualizar. 
+
+### [Vídeo-Youtube] https://www.youtube.com/watch?v=nLctkyZ9QUE
