@@ -1,8 +1,8 @@
 # Song_Rating
-- Uma API que o usuario logado poderá avaliar uma ou várias músicas com uma nota e um comentário. As músicas avaliadas tem Albuns, e esses Albuns são gravados por um Artista/Banda. 
-Projeto da Disciplina de Programação para Internet II - IFPI.
+- Uma API que o usuario logado poderá avaliar uma ou várias música que ele desejar, com uma pontuação e um comentário. As músicas avaliadas pertencem a Albuns, e esses Albuns são gravados por um Artista/Banda. 
+- Projeto da Disciplina de Programação para Internet II - IFPI.
 
-### Requisitos
+### Requisitos.
 * Python 3.8.2;
 * Django 3.1.4;
 * Django Rest Framework 3.12.2;
