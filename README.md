@@ -36,9 +36,9 @@ Uma API que engloba artistas, albuns e musicas, e os usuários cadastrados podem
 Somente o superusuário tem permissão para cadastrar artistas, albums e musicas. Um usuário Normal cadastrado pode fazer avaliações nas músicas que ele deseja. Quem não for usuário pode apenas visualizar. 
 
 ### Paginação:
-* songs?name=<field>
-* user?search=<field>
-* user?ordering=<field>
+* songs?name= <field>
+* user?search= <field>
+* user?ordering= <field>
   
 ### Throttling:
 *  Quem não é usuário da api só tem permissão de acesso aos endpoints no maximo 2 vezes por hora. 
