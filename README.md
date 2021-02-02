@@ -8,7 +8,7 @@ Uma API que engloba artistas, albuns e musicas, e os usuários cadastrados podem
 * Django Filter 2.4.0;
 * Django Rest Framework Simple JWT 4.6.0.
 
-#### Todos são instaláveis via "pip install..."
+#### Bibliotecas
 ```
   python -m pip install Django
   pip install djangorestframework
