@@ -45,4 +45,4 @@ Somente o superusuário tem permissão para cadastrar artistas, albums e musicas
 *  Quem não é usuário da api só tem permissão de acesso aos endpoints no maximo 2 vezes por hora. 
 *  Quem é usuário da api(usuario normal e Superusuário) só tem permissão de acesso aos endpoints no maximo 10 vezes por hora.
   
-### [Vídeo-Youtube] https://www.youtube.com/watch?v=nLctkyZ9QUE
+### [Vídeo-Youtube] https://www.youtube.com/watch?v=6CXPW70GWZg
