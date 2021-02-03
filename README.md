@@ -1,5 +1,5 @@
 # Song_Rating
-- Uma API que o usuario logado poderá avaliar uma ou várias música que ele desejar, com uma pontuação e um comentário. As músicas avaliadas pertencem a Albuns, e esses Albuns são gravados por um Artista/Banda. 
+- Uma API onde o usuario logado poderá avaliar uma ou várias músicas que ele desejar, com uma pontuação e um comentário. As músicas avaliadas pertencem a Albuns, e esses Albuns são gravados por um Artista/Banda. 
 - Projeto da Disciplina de Programação para Internet II - IFPI.
 
 ### Requisitos.
