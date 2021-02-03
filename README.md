@@ -2,6 +2,9 @@
 - Uma API onde o usuario logado poderá avaliar uma ou várias músicas que ele desejar, com uma pontuação e um comentário. As músicas avaliadas pertencem a Albuns, e esses Albuns são gravados por um Artista/Banda. 
 - Projeto da Disciplina de Programação para Internet II - IFPI.
 
+### [Vídeo Explicativo -Youtube] https://www.youtube.com/watch?v=6CXPW70GWZg
+
+
 ### Requisitos.
 * Python 3.8.2;
 * Django 3.1.4;
@@ -44,5 +47,3 @@ Somente o superusuário tem permissão para cadastrar artistas, albums e musicas
 ### Throttling:
 *  Quem não é usuário da api só tem permissão de acesso aos endpoints no maximo 2 vezes por hora. 
 *  Quem é usuário da api(usuario normal e Superusuário) só tem permissão de acesso aos endpoints no maximo 10 vezes por hora.
-  
-### [Vídeo-Youtube] https://www.youtube.com/watch?v=6CXPW70GWZg
